@@ -79,7 +79,8 @@ module.exports = {
             'http://user:pass@www.foobar.com/',
             'http://127.0.0.1/',
             'http://255.255.255.255/',
-            'http://duckduckgo.com/?q=%2F'
+            'http://duckduckgo.com/?q=%2F',
+						'http://www.youtube.com/watch?v=2MpUrDNIDLY&feature;=related'
         ];
         try {
             valid.forEach(function(url) {
